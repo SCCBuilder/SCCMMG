@@ -6,6 +6,7 @@ public class MMG_Turorial : MonoBehaviour
 
     public GameObject[] popUpArray = new GameObject[5];
     //public int nextGame;
+    //hello. SCCMMG_Assets.
 
     //bools are false by default
     public bool game0Win, game1Win, game2Win, game3Win, game4Win;
@@ -161,6 +162,7 @@ public class MMG_Turorial : MonoBehaviour
         {
             Debug.Log("Won game 3");
             GameStarter(4);
+
         }
         else
         {
